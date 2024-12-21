@@ -1,0 +1,183 @@
+body {
+  background-color: darkgray;
+  scroll-behavior: smooth; 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headings */
+h1 {
+  font-size: 80px;
+  color: Black;
+  text-align: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto; 
+  margin-left: 15px; 
+}
+
+.banner {
+  position: fixed;
+  top: 0; 
+  background-color: #333; 
+  z-index: 1000; 
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.nav-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-tabs li {
+  margin: 0 15px;
+}
+
+.nav-tabs a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.nav-tabs a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Flexbox Styles for Train Section */
+.train-section {
+  display: flex; 
+  justify-content: space-between; /* Space out items evenly */
+  margin: 20px auto; 
+  max-width: 1200px; /* Set max width for the section */
+}
+
+.train-item {
+  flex: 0 0 15%; /* Fixed width, adjust as needed */
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.train-image {
+  width: 15%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.train-item h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.train-item p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Flexbox Styles for How To Section */
+.howto-section {
+  display: flex; 
+  justify-content: space-between; /* Space out items evenly */
+  margin: 20px auto; 
+  max-width: 1200px; /* Set max width for the section */
+}
+
+.howto-item {
+  flex: 0 0 15%; /* Fixed width, adjust as needed */
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.howto-item img {
+  width: 15%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.howto-item h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.howto-item p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+  .train-item, .howto-item {
+    flex: 0 0 30%; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .train-item, .howto-item {
+    flex: 0 0 45%; /* Further adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .train-item, .howto-item {
+    flex: 0 0 100%; /* Stack items on very small screens */
+  }
+}
+
+/* Paragraphs */
+p {
+  margin: 25px 50px 75px 100px;
+  font-size: 20px;
+}
+
+/* General box styling */
+* {
+  box-sizing: border-box;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #999999;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}

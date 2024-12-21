@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Hybrid Athlete</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Hybrid Athlete Workouts">
+		<meta name="keywords" content="WORKING OUT, WEIGHTS, LIFTING, RUNNING, LEGS, CHEST, BACK, SHOULDERS, ENDURNACE, TEMPO RUNS, RECOVERY, REST, NUTRITION">
+		<meta name="author" content="Edgar Higareda">
+		<link rel="stylesheet" type="text/css" href="HigaredaEdgarStylesheet.css">
+		
+	</head>
+	<body>
+		<ul class="menu">
+			<li class="menu"><a href="HigaredaEdgarHomePage.html">Home</a></li>
+			<li class="menu"><a href="table.html">Table</a></li>
+			<li style="float:right" class="menu"><a href="About.html">About</a></li>
+			<li class="menu active"><a href="form.html">Form</a></li>
+		</ul>
+		<h1>FORM</h1>
+		<hr>
+			
+		<h2>REGISTRATION</h2>
+			
+			<p>For more information and a detailed planned to help you achieve your physical goals, answer a few questions and fill out your information here.</p>
+
+			<form action="/action_page.php">
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname"><br><br>
+			<input type="submit" value="Submit">
+
+			<p>What are your current physical goals?</p>
+
+			<input type="radio" id="weightloss" name="physical_goals" value="weight_loss">
+			<label for="weightloss">Weight Loss</label><br>
+			<input type="radio" id="gainmuscle" name="physical_goals" value="gain_muscle">
+			<label for="gainmuscle">Gain Muscle</label><br>
+			<input type="radio" id="running" name="physical_goals" value="running">
+			<label for="running">Become Better at Running</label><br><br>
+			<input type="radio" id="hybrid" name="physical_goals" value="hybrid">
+			<label for="hybrid">Become a <strong>Hybrid Athlete</strong> and incorporate all of the above</label><br><br>
+			<input type="submit" value="Submit">
+
+			<p>Click on what all you want your program to include:</p>
+
+			<input type="checkbox" id="plan1" name="plan1" value="meal_plan">
+			<label for="plan1"> Meal Plan</label><br>
+			<input type="checkbox" id="plan2" name="plan2" value="running_plan">
+			<label for="plan2"> Running Plan</label><br>
+			<input type="checkbox" id="plan3" name="plan3" value="weighlifting_plan">
+			<label for="plan3"> Weight Lifting Program</label><br><br>
+			<input type="submit" value="Submit">
+			
+			<p>Brief description of what you hope to accomplish within the fitness realm within the next 6 months..</p>
+			<textarea name="message" rows="10" cols="100"></textarea>
+			<input type="submit">
+			<input type="reset" value="Reset"><br><br><br><br>
+			
+			<label for="brands">Choose your favorite running shoe brand:</label><br><br>
+		
+			<select id="brands" name="brands">
+			<option value="nike">Nike</option>
+			<option value="adidas">Adidas</option>
+			<option value="asics">Asics</option>
+			<option value="hoka">Hoka</option>
+			</select>
+			<input type="submit">
+			</form> 
+		<hr>
+
+	</body>
+</html>
